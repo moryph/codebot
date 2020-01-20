@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/moryph/codebot/issues"
   },
-  "homepage": "https://github.com/moryph/codebot#readme"
+  "homepage": "https://github.com/moryph/codebot#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
