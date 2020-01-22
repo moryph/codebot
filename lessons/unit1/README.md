@@ -7,10 +7,11 @@
 3. Programming overview
 4. Basic JavaScript syntax
 5. Variables and primitive types
-6. Operators, expressions and statements
+6. Operators and type coercion
 7. Arrays and objects
-8. Functions
-9. Group project overview
+8. If, For, While
+9. Functions
+10. Group project overview
 
 ### Useful References
 
@@ -65,6 +66,11 @@ implemented JavaScript version even today, and you can reliably program in it an
 The next release would be in 2015, with the release of ECMAScript 2015, followed by a similar release every year. 
 We're going to be using mainly features of ECMAScript 2017, with some later ones brought in. There won't be support
 for these things in current browsers, but there exist tools that convert code between versions (a process known as transpiling).
+
+Node.js, the runtime that we're using for these lessons, was created in 2009 as an open-source project (and is perhaps a good
+lesson into the not-so-good aspects of using open source to manage large projects). I'll be going over Node things in later lessons,
+just good to know for now that it's built on v8, an open-source JavaScript engine that powers Google Chrome and Chromium, and
+is the most widespread server-side JavaScript engine in use today.
 
 On a closing remark, JavaScript was often seen as a language for "amateurs" given its beginnings, and that perception
 has not completely faded today. Due to its short development time, the language contains a lot of what people would
