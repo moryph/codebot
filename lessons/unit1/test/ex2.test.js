@@ -5,7 +5,6 @@ test('Q1', () => {
   expect(ex2.q1()).toEqual(3)
 })
 
-
 test('Q2', () => {
   const results = ex2.q2()
   expect(results.color).toEqual('blue')

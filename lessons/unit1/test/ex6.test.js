@@ -21,5 +21,4 @@ test('Q2', () => {
   expect(results.normalizer(-100)).toEqual(-1)
   expect(results.normalizer(0)).toEqual(0)
   expect(results.normalizer(100)).toEqual(1)
-
 })

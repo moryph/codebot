@@ -61,7 +61,8 @@ and more people started to develop with JavaScript, including AJAX, and librarie
 agree to standardize on JavaScript in 2009, on a version called ECMAScript 5. 
 
 ECMAScript 5.1 would be released in 2011, which caught JavaScript up with the standard at the time. This is the most
-implemented JavaScript version even today, and you can reliably program in it and have any browser be able to run it.
+implemented JavaScript version even today, and you can reliably program in it and have any browser be able to run it. In contrast
+newer versions often are not fully supported in browsers, though they are slowly catching up.
 
 The next release would be in 2015, with the release of ECMAScript 2015, followed by a similar release every year. 
 We're going to be using mainly features of ECMAScript 2017, with some later ones brought in. There won't be support

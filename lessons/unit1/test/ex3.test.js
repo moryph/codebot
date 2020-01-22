@@ -24,7 +24,6 @@ test('Q2', () => {
 
 test('Q3', () => {
   const testCases = [['str', 12], [true, 'str'], ['a', 'a'], [null, 'str'], ['33', 33]]
-
   for (const test of testCases) {
     const results = ex3.q3(test[0], test[1])
     expect(results.equal).toEqual((test[0] == test[1]))
@@ -32,5 +31,5 @@ test('Q3', () => {
     expect(results.stringified).toEqual('' + test[0] + test[1])
     expect(results.bool).toEqual(!!test[0])
   }
-  
+
 })
