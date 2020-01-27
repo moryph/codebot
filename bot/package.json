@@ -4,14 +4,16 @@
   "description": "",
   "main": "dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test-math-gcd": "jest src/commands/math/gcd"
   },
   "author": "",
   "license": "UNLICENSED",
   "devDependencies": {
     "@babel/core": "^7.8.0",
     "@babel/preset-env": "^7.8.2",
+    "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
+    "jest": "^25.1.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
