@@ -2,9 +2,9 @@ import { NotImplementedError } from '../../errors'
 /**
  * Function phi - Approximate the golden ratio from the Fibonacci Sequence
  *
- * It is proven that the ratio between two consecutive numbers in the Fibonacci Sequence approaches the golden ratio,
+ * It is known that the ratio between two consecutive numbers (i.e. F(n + 1)/F(n) in the Fibonacci Sequence approaches the golden ratio,
  * phi, as the index of the numbers increases. Use this relationship to approximate the value of phi given the index of
- * the lower of the two Fibonacci numbers.
+ * the lower of the two Fibonacci numbers. Set the first value (n = 1) to 1, and the second value (n = 1) to 1.
  *
  *
  *
