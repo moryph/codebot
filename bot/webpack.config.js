@@ -1,5 +1,5 @@
 const path = require('path');
-
+const NodemonPlugin = require('nodemon-webpack-plugin');
 
 module.exports = {
 
@@ -10,18 +10,19 @@ module.exports = {
     filename: 'bundle.js'
   },
   target: 'node',
+  mode: 'development',
   module: {
     rules: [
       {
         test: /\.m?js$/,
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
+          loader: 'babel-loader'
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new NodemonPlugin()
+  ]
 };

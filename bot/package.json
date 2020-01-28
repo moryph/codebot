@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/bundle.js",
   "scripts": {
-    "test-math-gcd": "jest src/commands/math/gcd"
+    "build": "webpack",
+    "start": "webpack --watch"
   },
   "author": "",
   "license": "UNLICENSED",
@@ -14,6 +15,7 @@
     "babel-jest": "^25.1.0",
     "babel-loader": "^8.0.6",
     "jest": "^25.1.0",
+    "nodemon-webpack-plugin": "^4.2.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
