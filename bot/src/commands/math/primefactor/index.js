@@ -8,7 +8,7 @@ import { NotImplementedError } from '../../errors'
  * factor multiple times within the output array. For example, the prime factorization of 9 is 3^2, so the
  * output array can be [3, 3].
  *
- * The order of the output array does not matter.
+ * Please sort the array in smallest first. Arrays have a method called sort() that will help with this.
  *
  * @param num - The input integer to factor
  * @return {response} - A string response containing the results of the factorization.
