@@ -8,7 +8,7 @@ import { NotImplementedError } from '../../errors'
  *
  *
  *
- * @param n - The n value used above
+ * @param n - The n value used above, a non-negative integer
  * @return {response} - A string response containing the calculated value.
  */
 async function phi(n) {
@@ -26,5 +26,5 @@ export default {
   match: /^(\d+)$/,
   handler: phi,
   paramTypes: ['number'],
-  usage: 'phi [integer]'
+  usage: 'phi [non-negative integer]'
 }

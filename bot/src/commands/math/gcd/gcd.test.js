@@ -6,6 +6,7 @@ function formatOutput (num1, num2, gcd) {
 
 test('GCD Test', async () => {
   expect(await gcd.handler(5, 7)).toEqual(formatOutput(5, 7, 1))
+  expect(await gcd.handler(0, 5)).toEqual(formatOutput(0, 5, 5))
   expect(await gcd.handler(4, 8)).toEqual(formatOutput(4, 8, 4))
   expect(await gcd.handler(16, 12)).toEqual(formatOutput(16, 12, 4))
   expect(await gcd.handler(51, 29)).toEqual(formatOutput(29, 51, 1))
