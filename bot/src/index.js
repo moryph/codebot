@@ -7,15 +7,16 @@ async function runBot() {
     console.log('Client setup completed')
   })
   client.on('message', async msg => {
-    if (msg.content.charAt(0) !== '$') {
+    if (msg.content.charAt(0) !== '%' || msg.channel.name !== 'codebot') {
       return
     }
+    console.log(`Executing command ${msg.content}`)
     const response = await handler(msg)
     if (response) {
       msg.channel.send(response)
     }
   })
-  await client.login(process.env.CLIENT_SECRET)
+  await client.login(process.env.BOT_TOKEN)
 }
 
 

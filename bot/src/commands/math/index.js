@@ -1,14 +1,23 @@
 import gcd from './gcd'
-import primefactor from './primefactor/index'
-import { matchCommand } from '../index'
+import primefactor from './primefactor'
+import binomial from './binomial'
+import phi from './phi'
+import quadraticresidue from './quadraticresidue'
+import sqrt from './sqrt'
+
+import { matchSubcommand } from '../index'
 
 
 const commands = {
   gcd,
-  primefactor
+  primefactor,
+  binomial,
+  phi,
+  quadraticresidue,
+  sqrt
 }
 export default async (msg, commandArgs) => {
-  const response = await matchCommand(msg, commandArgs, commands, 'math')
+  const response = await matchSubcommand(msg, commandArgs, commands, 'math')
   if (response) {
     msg.channel.send(response)
   }
