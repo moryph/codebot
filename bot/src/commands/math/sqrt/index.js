@@ -12,7 +12,7 @@ import { NotImplementedError } from '../../errors'
  *  x_(n + 1) = (1/2)(x_(n) + a/(x_(n)))
  *
  *  Where x_(n + 1) is the improved guess, x_(n) is the old guess, and a is the value to find a square root for. Start with
- *  an initial guess value of 1. Store the final approximate value in approxSqrt.
+ *  an initial guess value of 1 for x. Store the final approximate value in approxSqrt.
  *
  * @param a - The value to find a square root for
  * @param n - The total number of iterations to run for
