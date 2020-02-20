@@ -29,11 +29,11 @@ test('Q3', () => {
   const testCases = [1, 10, 489072, 3918, -3, 4218, 582, 193, 432, 194, -1000]
   for (const test of testCases) {
     let counter = 0
-    let val = test
-    while (val > 0) {
-      counter++
-      val = (val / 2) - 1
-    }
-    expect(ex5.q3(test)).toEqual(val)
+      let val = test
+      while (val > 0) {
+          counter++
+          val = (val / 2) - 1
+      }
+    expect(ex5.q3(test)).toEqual(counter)
   }
 })

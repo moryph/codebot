@@ -7,15 +7,15 @@
  */
 
 const q1 = (num1, num2) => {
-  // Set variable sum to the sum of a and b
+  // Set variable sum to the sum of num1 and num2
   const sum = 0
-  // Set variable product to the product of a and b
+  // Set variable product to the product of num1 and num2
   const product = 0
-  // Set variable difference to the difference of a and b
+  // Set variable difference to the difference of num1 and num2
   const difference = 0
-  // Set variable quotient to a divided by b
+  // Set variable quotient to num1 divided by num2
   const quotient = 0
-  // Set variable modulus to a mod b
+  // Set variable modulus to num1 mod num2
   const modulus = 0
   return {
     sum, product, difference, quotient, modulus
