@@ -9,7 +9,8 @@ import { NotImplementedError } from '../../errors'
  *
  * Though in theory, all x values will need to be checked, in practice, x can only belong in the interval 0 < x <= floor(p/2),
  * therefore only these values will need to be checked. q can only belong to 0 < q < p. 1 is a quadratic residue of all numbers
- * since 1^2 mod p = 1 mod p for any p value.
+ * since 1^2 mod p = 1 mod p for any p value > 1. If p is 1, 0 is technically the only quadratic residue. In such a case,
+ * you can choose to specifically only return 0, or not return anything at all.
  *
  * Given a p value, provide an array of q values, stored in variable residues.
  *
